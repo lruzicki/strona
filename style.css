@@ -1,0 +1,187 @@
+body
+{
+    background-color: #303030;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prostokat
+{
+    width: 960px;
+    margin:20px;
+    text-align: center;
+}
+.kwadrat
+{
+    width: 50%;
+    float: left;
+}
+#logo
+{
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Slab', serif;
+    font-size:70px;
+    width: 600px;
+}
+#zegar
+{
+    float: left;
+    text-align: left;
+    font-family: 'Josefin Slab', serif;
+    font-size:70px;
+}
+.kafelek1
+{
+    float: left;
+    text-align: center;
+    margin:10px;
+    width: 230px; 
+    height: 142px; /* złota proporcja */
+    background-color: royalblue;
+}
+.kafelek1:hover
+{
+    background-color: blue;
+}
+.kafelek2
+{
+    float: left;
+    text-align: center;
+    margin:10px;
+    width: 230px; 
+    height: 142px; /* złota proporcja */
+    background-color: #666666;
+}
+.kafelek2:hover
+{
+    background-color: gray;
+}
+.kafelek3
+{
+    float: left;
+    text-align: center;
+    margin:10px;
+    width: 230px; 
+    height: 142px; /* złota proporcja */
+    background-color:rgb(159, 252, 21);
+}
+.kafelek3:hover
+{
+    background-color:green;
+}
+.kafelek4
+{
+    float: left;
+    text-align: center;
+    margin:10px;
+    width: 480px; 
+    height: 142px; /* złota proporcja */
+    background-color:rgb(231, 50, 111);
+}
+.kafelek4:hover
+{
+    background-color:white;
+    color:rgb(231,50,111)
+}
+.kafelek5
+{
+    float: left;
+    text-align: center;
+    margin:10px;
+    width: 480px; 
+    height: 304px; /* złota proporcja */
+    background-color:rgb(99, 99, 99);
+}
+.yt
+{
+    float: left;
+    margin:10px;
+    width: 105px; 
+    height: 142px; /* złota proporcja */
+    background-color:rgb(252, 21, 21);
+}
+.yt:hover
+{
+    color: rgb(252, 21, 21);
+    background-color: white;
+}
+.fb
+{
+    float: left;
+    margin:10px;
+    width: 105px; 
+    height: 142px; /* złota proporcja */
+    background-color:rgb(21, 56, 252);
+}
+.fb:hover
+{
+    color: rgb(21, 56, 252);
+    background-color: white;
+}
+.github
+{
+    float: left;
+    margin:10px;
+    width: 105px; 
+    height: 142px; /* złota proporcja */
+    background-color:rgb(78, 78, 78);
+
+}
+.github:hover
+{
+    color: rgb(78, 78, 78);
+    background-color: white;
+}
+.twitter
+{
+    float: left;
+    margin:10px;
+    width: 105px; 
+    height: 142px; /* złota proporcja */
+    background-color:rgb(66, 186, 255);
+}
+.twitter:hover
+{
+    color: rgb(66, 186, 255);
+    background-color: white;
+}
+.tekst
+{
+    width: 420px;
+    height: 500px;
+    margin:20px;
+    float: left;
+    text-align: justify;
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgb(40, 53, 53);
+    border-style: groove;
+    border-color: coral;
+     border-width: 2px;
+}
+.lista
+{
+    width: 422px;
+    height: 490px;
+    margin:20px;
+    padding: 40px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    float: left;
+    text-align: justify;
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgb(50, 35, 59);
+    border-style: groove;
+    border-color: rgb(80, 83, 255);
+    border-width: 7px;
+}
