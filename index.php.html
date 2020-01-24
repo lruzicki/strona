@@ -35,6 +35,11 @@
     </style>
 </head>
 <body>
+
+<?php
+    $rzeczy = $_POST[rzeczy];
+    echo "$rzeczy"
+?>
     <div class="container">
         
         <div class="prostokat">
@@ -97,6 +102,11 @@
                 <li>Punkt ósmy</li>
                 <li>Punkt dziewiąty</li>
                 </ol>
+                <form action="order.php" method="post">
+                    Ile tych rzeczy:
+                    <input type="text" name="rzeczy"/>
+                    <input type="submit" value="Wyślij"/>
+                </form>
         </div>
         <div style="clear: both;"></div>
         <div class="prostokat">
